@@ -8,17 +8,8 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class JavaConfig {
-//    @Bean
-//    public AuthorizationController authController() {
-//        return new AuthorizationController();
-//    }
-
     @Bean
     public UserRepository userRepository() {
         return new UserRepository();
     }
-//    @Bean
-//    public AuthorizationService AuthorizationService() {
-//        return new AuthorizationService(UserRepository userRepository);
-//    }
 }
